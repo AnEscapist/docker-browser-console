@@ -8,3 +8,17 @@ Forward input/output from docker containers to your browser
 
 By using mafintosh's repo, a user can only console a new container created by the image.
 We want to console an existing container.
+
+In order to do this, I modified some libraries in node_modules. So, node_modules directory is also pushed here.
+
+## How to use this repo
+
+
+Simply clone this repo and then:
+
+```
+cd docker-browser-console
+node server.js <container_id>
+```
+
+Then, open ```index.html``` in your browser.
