@@ -8,7 +8,7 @@ var server = new ws.Server({
 
 //if you want to console local container
 var container_id = '13a1cdf45326';
-var ontainer_id = process.argv[2];
+var container_id = process.argv[2];
 var container = docker(container_id);
 
 
