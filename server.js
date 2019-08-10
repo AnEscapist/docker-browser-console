@@ -6,7 +6,9 @@ var server = new ws.Server({
     port: 10000
 });
 
-container_id = '13a1cdf45326';
+//if you want to console local container
+var container_id = '13a1cdf45326';
+var ontainer_id = process.argv[2];
 var container = docker(container_id);
 
 
