@@ -14,7 +14,7 @@ In order to do this, I modified some libraries in node_modules. So, node_modules
 ## How to use this repo
 
 
-Simply clone this repo and then:
+Simply clone this repo (node_modules will also be downloaded) and then:
 
 ```
 cd docker-browser-console
