@@ -7,14 +7,14 @@ var server = new ws.Server({
 });
 
 //if you want to console local container
-var container_id = '13a1cdf45326';
+var container_id = '13a1cdf45326'; //for testing
 var container_id = process.argv[2];
 var container = docker(container_id);
 
 
 //if it is a remote container, do:
 // var remote_ip = '10.10.81.100';
-// var container_id = '387d914cee46';
+// var container_id = '387d914cee46'; //for testing
 // var container_id = process.argv[2];
 // var container = docker(container_id, {host: remote_ip});
 
