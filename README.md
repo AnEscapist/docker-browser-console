@@ -29,4 +29,5 @@ Then, open ```index.html``` in your browser.
 To console the container hosted on AT&T uCPE, modify the code in ```docker-browser-console/server.js```, from figure 1 to figure 2:
 
 
-![img](../img/figure_local_console.png)
+![figure1-local_console](img/figure_local_console.png)
+![figure2-remote_console](img/figure_remote_console.png)
