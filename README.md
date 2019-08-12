@@ -31,3 +31,5 @@ To console the container hosted on AT&T uCPE, modify the code in ```docker-brows
 
 ![figure1-local_console](img/figure_local_console.png)
 ![figure2-remote_console](img/figure_remote_console.png)
+
+where ```remote_ip = 10.10.81.100``` is the ip address of the uCPE.
