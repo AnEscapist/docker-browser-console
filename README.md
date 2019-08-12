@@ -22,3 +22,11 @@ node server.js <container_id>
 ```
 
 Then, open ```index.html``` in your browser.
+
+
+# Specially, for AT&T uCPE
+
+To console the container hosted on AT&T uCPE, modify the code in ```docker-browser-console/server.js```, from figure 1 to figure 2:
+
+
+![img](../img/figure_local_console.png)
